@@ -467,11 +467,11 @@ SHA: [pending]
 
 #### 9.3.2 FastAPI Service Restructure
 
-- [ ] Create `fastapi_service/routers/` directory
-- [ ] Create `fastapi_service/services/` for business logic
-- [ ] Create `fastapi_service/grpc_clients/` for Django communication
-- [ ] Generate gRPC client stubs from protos
-- [ ] Implement gRPC client wrapper class
+- [x] Create `fastapi_service/routers/` directory
+- [x] Create `fastapi_service/services/` for business logic
+- [x] Create `fastapi_service/grpc_clients/` for Django communication
+- [x] Generate gRPC client stubs from protos
+- [x] Implement gRPC client wrapper class
 - [ ] Create webhook receiver route (`POST /webhooks/{provider}`)
 - [ ] Implement HMAC-SHA256 signature validation
 - [ ] Test webhook endpoint with mock data
@@ -533,10 +533,10 @@ SHA: [pending]
 
 **Sub-tasks**:
 
-- [ ] Review WebhookLog model implementation
-- [ ] Apply corrections (primary key issue, related_name, methods)
+- [x] Review WebhookLog model implementation
+- [x] Apply corrections (primary key issue, related_name, methods)
 - [ ] Test model in Django shell
-- [ ] Create migrations
+- [x] Create migrations
 
 ### 10.2 Pending Model Implementations
 
